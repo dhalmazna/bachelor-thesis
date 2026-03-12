@@ -10,3 +10,6 @@
 
 *.pdf
 !images/*.pdf
+
+# Build directory
+build/
