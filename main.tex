@@ -1,5 +1,9 @@
 \documentclass{mimosis}
 
+\usepackage[backend=biber, style=numeric-comp]{biblatex}
+\addbibresource{literature.bib}
+\nocite{*}
+
 \title{Explainability of Image Processing Models using Local Feature Selection}
 \author{David Halmazňa}
 \date{\today}
@@ -13,5 +17,7 @@
 \mainmatter
 \chapter{Introduction}
 Lorem etc.
+
+\printbibliography[heading=bibintoc, title={Literature}]
 
 \end{document}
